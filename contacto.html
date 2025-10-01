@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+    <div class="logo">
+      <a href="index.html">🏋️‍♂️ FitnessPro</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="programas.html">Programas</a></li>
+      <li><a href="nutricion.html">Nutrición</a></li>
+      <li><a href="entrenadores.html">Entrenadores</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    <div class="cta">
+      <a href="registro.html" class="btn">Unirme</a>
+    </div>
+  </nav>
+  <main>
+  <section class="contacto">
+    <h2>Contacto</h2>
+    <form class="form-contacto" action="#" method="post" enctype="multipart/form-data">
+      
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+
+      <div class="form-group">
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="+598 123456789">
+      </div>
+
+      <div class="form-group">
+        <label for="asunto">Asunto</label>
+        <select id="asunto" name="asunto" required>
+          <option value="">Selecciona una opción</option>
+          <option value="consulta">Consulta general</option>
+          <option value="programas">Programas de entrenamiento</option>
+          <option value="nutricion">Plan de nutrición</option>
+          <option value="otro">Otro</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="archivo">Adjuntar archivo (opcional)</label>
+        <input type="file" id="archivo" name="archivo">
+      </div>
+
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+      </div>
+
+      <div class="form-group checkbox">
+        <input type="checkbox" id="terminos" name="terminos" required>
+        <label for="terminos">Acepto los términos y condiciones</label>
+      </div>
+
+      <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+  </section>
+</main>
+<footer class="footer">
+  <div class="footer-container">
+    <p>© 2025 FitnessPro - Todos los derechos reservados</p>
+    <div class="social-links">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+</footer>
+
+    
+</body>
+</html>
